@@ -1,0 +1,131 @@
+body {
+  font-family: poppins;
+}
+
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.heading {
+  margin: 0;
+  padding: 0;
+  background-color: #373a40;
+  overflow: hidden;
+}
+
+.heading h3 {
+  display: block;
+  color: #eeeeee;
+  text-align: left;
+  text-decoration: none;
+  padding: 0 16px;
+}
+
+/* .navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #373a40;
+  overflow: hidden;
+} */
+
+/* .navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px 14px;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+} */
+
+#content {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-left: 30px;
+}
+
+#home {
+  flex: 1;
+  max-width: 60%;
+}
+
+#home h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#home p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.profile_image {
+  margin-right: 40px; /* Adds space between the text and the image */
+  width: 200px; /* Sets a specific width for the image */
+  height: 200px; /* Ensures the height matches the width */
+  border-radius: 50%; /* Makes the image round (assuming it's a square) */
+  object-fit: cover;
+}
+
+hr {
+  border: 0;
+  height: 2px; /* Set the height of the line */
+  background-color: #333; /* Set the background color of the line */
+  margin: 20px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* horizontal line */
+.section-divider {
+  border: none; /* Removes default border */
+  border-top: 1px solid #ccc; /* Sets the style, width, and color of the border */
+  margin-top: 25px;
+  margin-bottom: 20px; /* Adds space below the line */
+}
+
+/* .project {
+  margin-bottom: 20px;
+  max-width: 30%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.project-box {
+  width: 70%;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #eeeeee;
+  height: 70%;
+}
+
+.project-box p {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.project_section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+} */

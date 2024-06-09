@@ -2,6 +2,11 @@ body {
   font-family: poppins;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body,
 ul {
   margin: 0;
@@ -98,6 +103,92 @@ hr {
   border-top: 1px solid #ccc; /* Sets the style, width, and color of the border */
   margin-top: 25px;
   margin-bottom: 20px; /* Adds space below the line */
+}
+
+.project_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project {
+  /* border: 1px solid black; */
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.project-box {
+  border: 1px solid black;
+  background-color: #eeeeee;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.project-box p {
+  font-size: 12px;
+  /* text-align: center; */
+}
+
+.heading_text {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.exp-box {
+  border: 1px solid black;
+  background-color: #eeeeee;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.exp-box h3 {
+  padding-left: 20px;
+}
+
+.exp-box p {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.btn-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  padding: 10px 20px;
+  width: 150px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #dc5f00;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+/* Footer styling */
+
+.footer {
+  background-color: #333; /* Background color of the footer */
+  color: white; /* Text color in the footer */
+  padding: 20px 0; /* Padding inside the footer */
+  text-align: center; /* Center-aligns text */
+  margin-top: 30px;
+  width: 100%; /* Ensures footer takes full width */
+}
+
+.footer-content {
+  max-width: 1200px; /* Maximum width of the footer content */
+  margin: 0 auto; /* Centers the footer content horizontally */
+  padding: 0 20px; /* Adds horizontal padding */
 }
 
 /* .project {
